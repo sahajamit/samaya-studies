@@ -14,6 +14,8 @@ Important requirements:
 - If something is not present in the chapter, write “Not covered in this chapter.” Do not invent facts.
 - Prefer Markdown headings and tables. Keep formatting clean for printing.
  - Summary‑only: do not include practice questions, MCQs, SAQs, structured questions, or flashcards.
+ - Exclude all sections titled "Going further" from the summary; do not include their content as they are not part of the examinable syllabus.
+ - At the end, provide a list of excluded "Going further" section headings with their page number(s) and the total count excluded.
 
 Output structure (use these exact sections and headings):
 
@@ -75,6 +77,11 @@ Title block
 
 13) References to pages
 - Collate all page references cited above as: Topic → pages
+
+14) Excluded "Going further" sections (not examinable)
+- Count excluded: <number>
+- Table: Heading | Pages
+- List headings and page numbers only; do not include any content from these sections.
 
 Quality bar and constraints
 - Accuracy first: no hallucinations. If unsure, mark as “Not covered/Not stated”.
